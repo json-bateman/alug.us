@@ -26,7 +26,7 @@
   <!-- OpenGraph meta -->
   <meta property="og:title" content="Blockchain">
   <meta property="og:description" content="Blockchain, it's like git but less cool.">
-  <meta property="og:image" content="/images/git/git_icon.png">
+  <meta property="og:image" content="/images/blockchain/blockchain-icon.svg">
   <meta property="og:image:alt" content="Blockchain">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="400" />
@@ -37,8 +37,8 @@
   <meta name="twitter:image" content="/images/git/git.png">
   <link rel="canonical" href="https://alug.us/pages/blockchain/blockchain.html">
 
-  <link rel="icon" href="/images/git/git_flavicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/images/git/git_flavicon.svg">
+  <link rel="icon" href="/images/blockchain/blockchain-icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/images/blockchain/blockchain-icon.svg">
 </head>
 
 <body>
@@ -73,155 +73,155 @@
         <span class="subtitle">"I made Doge in like 2 hours, I didn't consider anything."</span>
         <span class="sub-sub">-- Billy Markus (Creator of Dogecoin)</span>
         <hr>
-        <div class="title-pic-container">
-          <div class="title-pic pic-border">
-            <img src="/images/git/reckon.jpg" />
-          </div>
-        </div>
-      </div>
-
-      <div class="section">
-        <hr>
-        <h2 class="section-title">So What is Blockchain?</h2>
-        <h3 class="section-subtitle">It's basically Git</h3>
-        <hr>
-        <p class="section-desc">
-          Here are the similaries between the two.
-        </p>
-        <table>
-          <tr>
-            <th>Git</th>
-            <th>Blockchain</th>
-          </tr>
-
-          <tr>
-            <td>Linked List, history of commits</td>
-            <td>Linked list, chain of blocks</td>
-          </tr>
-          <tr>
-            <td>Each commit has a hash of its contents</td>
-            <td>Each block has a hash of its contents</td>
-          </tr>
-          <tr>
-            <td>Commit points to parent</td>
-            <td>Block points to parent</td>
-          </tr>
-          <tr>
-            <td>History is append only</td>
-            <td>Chain is append only</td>
-          </tr>
-          <tr>
-            <td>Use merkle tree to store blobs (files / data)</td>
-            <td>Use merkle tree to store transactions</td>
-          </tr>
-          <tr>
-            <td>Distributed to anyone who clones it</td>
-            <td>Distributed to anyone that runes the node software</td>
-          </tr>
-          <tr>
-            <td>Verifed using commit hashes</td>
-            <td>Verified using block hashes</td>
-          </tr>
-        </table>
-
-        <p class="section-desc">
-          However there are some key important differences.
-        </p>
-
-        <table>
-          <tr>
-            <th>Git</th>
-            <th>Blockchain</th>
-          </tr>
-
-          <tr>
-            <td>Anyone can rewrite history</td>
-            <td>No one can rewrite history</td>
-          </tr>
-          <tr>
-            <td>No global agreement needed</td>
-            <td>Global consensus mechanism (proof of work (PoW), proof of stake (PoS), etc)</td>
-          </tr>
-          <tr>
-            <td>No economic incentive</td>
-            <td>Economic incentives for mining, or having a node</td>
-          </tr>
-          <tr>
-            <td>Rely's on trust and who you add as a collaborator</td>
-            <td>Trust only the code and consensus mechanism</td>
-          </tr>
-        </table>
-
-      </div>
-
-      <div class="section">
-        <hr>
-        <h2 class="section-title">Ok but how does it work?</h2>
-        <h3 class="section-subtitle">Blockadelphia</h3>
-        <hr>
         <div class="flex-center flex-wrap">
           <div class="another-pic-container">
-            <img class="centered-pic pic-border" src="/images/git/deltas.png" />
+            <img class="centered-pic pic-border" src="/images/blockchain/crypto.jpg" />
           </div>
         </div>
-        <p class="section-desc">
-          Basically there's a few steps to any blockchain, and they all work with the same underlying principals and use
-          the same general logic loop.
-        </p>
-        <ol>
-          <li>Submit transaction</li>
-          <li>Transaction gets added to "mempool"</li>
-          <li>Transaction limit or time limit gets reached (arbitrarily set by chain)</li>
-          <li>Miners race to mine the block using a verification algorithm (PoW and PoS have many different
-            implementations) </li>
-          <li>One node wins, block is added to chain, process repeats</li>
-        </ol>
-        <br>
-      </div>
 
-      <div class="section">
-        <hr>
-        <h2 class="section-title">What's the problem with Proof of Work? (i.e. Bitcoin)</h2>
-        <h3 class="section-subtitle">Problems Schmablems</h3>
-        <hr>
+        <div class="section">
+          <hr>
+          <h2 class="section-title">So What is Blockchain?</h2>
+          <h3 class="section-subtitle">It's basically Git</h3>
+          <hr>
+          <p class="section-desc">
+            Here are the similaries between the two.
+          </p>
+          <table>
+            <tr>
+              <th>Git</th>
+              <th>Blockchain</th>
+            </tr>
 
-        <ol>
-          <li>Crazy waste of Energy</li>
-          <li>Incredibly inefficient as "Money", transaction throughput is really bad.</li>
-          <li>Not really a store of value like its claims of "Digital Gold"</li>
-          <li>Very user unfriendly</li>
-        </ol>
-      </div>
+            <tr>
+              <td>Linked List, history of commits</td>
+              <td>Linked list, chain of blocks</td>
+            </tr>
+            <tr>
+              <td>Each commit has a hash of its contents</td>
+              <td>Each block has a hash of its contents</td>
+            </tr>
+            <tr>
+              <td>Commit points to parent</td>
+              <td>Block points to parent</td>
+            </tr>
+            <tr>
+              <td>History is append only</td>
+              <td>Chain is append only</td>
+            </tr>
+            <tr>
+              <td>Use merkle tree to store blobs (files / data)</td>
+              <td>Use merkle tree to store transactions</td>
+            </tr>
+            <tr>
+              <td>Distributed to anyone who clones it</td>
+              <td>Distributed to anyone that runes the node software</td>
+            </tr>
+            <tr>
+              <td>Verifed using commit hashes</td>
+              <td>Verified using block hashes</td>
+            </tr>
+          </table>
 
-      <div class="section">
-        <hr>
-        <h2 class="section-title">What about this new fangled Proof of Stake? (i.e. Ethereum)</h2>
-        <h3 class="section-subtitle">I heard it's all the rage</h3>
-        <hr>
-        <ol>
-          <li>Relies on people having a lot of money to run nodes.</li>
+          <p class="section-desc">
+            However there are some key important differences.
+          </p>
 
-          <li>Genesis creates a lot of tokens for the people who started the protocol (pyramid / ponzi scheme?)</li>
-          <li>Most are deflationary, I'm not an economist, but deflationary currency is a bit of an oxymoron</li>
-          <li>Very user unfriendly</li>
-        </ol>
-      </div>
+          <table>
+            <tr>
+              <th>Git</th>
+              <th>Blockchain</th>
+            </tr>
 
-      <div class="section">
-        <hr>
-        <h2 class="section-title">What's the Silver Lining</h2>
-        <h3 class="section-subtitle">There's gotta be something... Right?</h3>
-        <hr>
+            <tr>
+              <td>Anyone can rewrite history</td>
+              <td>No one can rewrite history</td>
+            </tr>
+            <tr>
+              <td>No global agreement needed</td>
+              <td>Global consensus mechanism (proof of work (PoW), proof of stake (PoS), etc)</td>
+            </tr>
+            <tr>
+              <td>No economic incentive</td>
+              <td>Economic incentives for mining, or having a node</td>
+            </tr>
+            <tr>
+              <td>Rely's on trust and who you add as a collaborator</td>
+              <td>Trust only the code and consensus mechanism</td>
+            </tr>
+          </table>
 
-        <p class="section-desc">
-          I still think it's an awesome project and an interesting idea. When I first started studing and learning about
-          blockchain I really thought it might be revolutionary. I think though after being battle tested against the
-          constraints of the real world, the idealism of the technology has faded and what remains simply is its just
-          not as world changing of a technology as we're led to believe. It still has it's use for niche worldwide
-          transactions but for the most part I think the XKCD comic sums it up rather nicely.
-        </p>
+        </div>
 
-      </div>
+        <div class="section">
+          <hr>
+          <h2 class="section-title">Ok but how does it work?</h2>
+          <h3 class="section-subtitle">Blockadelphia</h3>
+          <hr>
+          <p class="section-desc">
+            There are a few steps to any blockchain, and they all work with the same underlying principles and use the
+            same general logic loop.
+          </p>
+          <ol>
+            <li>Submit transaction</li>
+            <li>Transaction propagate across the network and get added to mempools of participating nodes.</li>
+            <li>When enough transactions have accumulated or time threshold passed, a new block is proposed by a
+              validator.</li>
+            <li>Network uses PoW or PoS consensus algorithm to determine which validator proposes the next block.</li>
+            <li>One node wins or is selected, broadcasts the block to the network, and all nodes validate and update
+              their chain. The process then repeats.</li>
+          </ol>
+          <br>
+        </div>
+
+        <div class="section">
+          <hr>
+          <h2 class="section-title">What's the problem here?</h2>
+          <h3 class="section-subtitle">Problems Schmablems</h3>
+          <hr>
+          <ol>
+            <li>Massive Energy Consumption: Proof of Work relies on miners solving cryptographic puzzles using tons of
+              electricity.</li>
+            <li>Scalability (PoW): Bitcoin processes about 7 transactions per second. That's... not ideal for
+              global money.</li>
+            <li>Store of Value: “Digital Gold” sounds nice, but it’s volatile, rarely used for
+              payments, and still largely driven by speculation.</li>
+            <li>User Unfriendly:
+              Ain't no way Grandma is using this</li>
+            <li>Pay to Play (PoS): Proof of stake comes from stake, stake comes from a lot of money.</li>
+            <li>Genesis Tokens: Many chains give early insiders and developers large amount of token supply.</li>
+          </ol>
+        </div>
+
+        <div class="section">
+          <hr>
+          <h2 class="section-title">What's the Silver Lining</h2>
+          <h3 class="section-subtitle">There's gotta be something... Right?</h3>
+          <hr>
+
+          <p class="section-desc">
+            I still think it's an awesome project and an interesting idea. When I first started studing and learning
+            about blockchain I really thought it might be revolutionary. I think though after being battle tested
+            against the constraints of the real world, the idealism of the technology has faded and what remains simply
+            is its just not as world changing of a technology as we're led to believe. It still has it's use for niche
+            worldwide transactions but for the most part I think the XKCD comic sums it up rather nicely.
+          </p>
+
+          <div class="flex-center flex-wrap">
+            <a href="https://xkcd.com/2267/" target="_blank" class="another-pic-container">
+              <img class="centered-pic pic-border" src="/images/blockchain/xkcd_blockchain.png" />
+            </a>
+          </div>
+
+          <p>
+            <i>
+              XKCD Flavor text: Blockchains are like grappling hooks, in that it's extremely cool when you encounter a
+              problem for which they're the right solution, but it happens way too rarely in real life.
+            </i>
+          </p>
+
+
+        </div>
 
   </main>
   <div class="footer">
