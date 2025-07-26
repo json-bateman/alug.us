@@ -25,6 +25,11 @@ function downloadVimrc() {
   );
 }
 
+const footer = document.getElementById("footer")
+const year = new Date().getUTCFullYear()
+footer.textContent = "ALUG " + year
+
+
 /* ----------------------------
  Toggling Dark and Light mode
  ---------------------------- */
@@ -99,7 +104,7 @@ close.addEventListener("click", function () {
 // JQuery
 // ----------------------------
 
-const years = ["2021", "2022", "2023"];
+const years = ["2021", "2022", "2023", "2024", "2025"];
 
 const months = [
   "january",
@@ -119,7 +124,7 @@ const months = [
 for (const year of years) {
   $(`#${year}-container`).hide();
   $(`#${year}-year`).click(function () {
-    $(`#${year}-container`).toggle(500);
+    $(`#${year}-container`).toggle(300);
   });
 
   for (const month of months) {
