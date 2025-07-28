@@ -28,6 +28,16 @@ function downloadVimrc() {
 const footer = document.getElementById("footer")
 const year = new Date().getUTCFullYear()
 footer.textContent = "ALUG " + year
+const a = document.createElement("a")
+a.href = "https://github.com/json-bateman/alug.us"
+a.target = "_blank"
+const github = document.createElement("img")
+github.src = "/images/landing_page/github-blue.svg"
+github.width = 30
+github.height = 30
+
+a.appendChild(github)
+footer.appendChild(a)
 
 
 /* ----------------------------

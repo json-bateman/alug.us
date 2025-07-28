@@ -371,10 +371,15 @@ blockquote {
 .footer {
   text-align: center;
   width: 100%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  font-size: 16;
+  padding-bottom: 1rem;
   color: var(--base-content);
   border-top: 1px solid var(--base-content);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
 
 /* ----------------- */
